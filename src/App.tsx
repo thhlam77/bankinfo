@@ -88,8 +88,8 @@ function App() {
     }, 600); 
   }, []);
 
-  const profileImageURL = "https://levinhkhang.lol/_next/image?url=https%3A%2F%2Fi.imgur.com%2F8rhf6Ei_d.webp%3Fmaxwidth%3D1520%26fidelity%3Dgrand&w=256&q=75"; 
-  const profileName = "Lê Vĩnh Khang"; 
+  const profileImageURL = "https://i.imgur.com/WQGAda7.jpeg"; 
+  const profileName = "Vuong Honglin"; 
 
   return (
     <ToastProvider>
@@ -175,9 +175,9 @@ function App() {
                 <Header
                   profileImage={profileImageURL}
                   name={profileName}
-                  title="Developer Living in Vietnam"
-                  facebookUrl="fb.com/levinhkhangg"
-                  locationText="Hồ Chí Minh, Việt Nam"
+                  title="Not Developer :V Just Gái Nghịch Source :Đ"
+                  facebookUrl="fb.com/zuck
+                  locationText="Milky Way, The Earth"
                 />
               </motion.div>
 
