@@ -51,9 +51,9 @@ const Footer: React.FC = () => {
   };
 
   const socialLinks = [
-    { icon: <FaFacebook />, url: "https://facebook.com/levinhkhangg", color: "from-blue-600 to-blue-500", hoverColor: "rgba(59, 130, 246, 0.2)", lightColor: "bg-blue-100 text-blue-600 hover:bg-blue-200" },
-    { icon: <FaGithub />, url: "https://github.com/williamcachamwri", color: "from-gray-800 to-gray-600", hoverColor: "rgba(75, 85, 99, 0.2)", lightColor: "bg-gray-100 text-gray-700 hover:bg-gray-200" },
-    { icon: <FaEnvelope />, url: "mailto:levinhkhang93@gmail.com", color: "from-red-600 to-pink-600", hoverColor: "rgba(225, 29, 72, 0.2)", lightColor: "bg-red-100 text-red-600 hover:bg-red-200" },
+    { icon: <FaFacebook />, url: "https://facebook.com/", color: "from-blue-600 to-blue-500", hoverColor: "rgba(59, 130, 246, 0.2)", lightColor: "bg-blue-100 text-blue-600 hover:bg-blue-200" },
+    { icon: <FaGithub />, url: "https://github.com/thhlam77/", color: "from-gray-800 to-gray-600", hoverColor: "rgba(75, 85, 99, 0.2)", lightColor: "bg-gray-100 text-gray-700 hover:bg-gray-200" },
+    { icon: <FaEnvelope />, url: "mailto:gaidepvocungtan10@gmail.com", color: "from-red-600 to-pink-600", hoverColor: "rgba(225, 29, 72, 0.2)", lightColor: "bg-red-100 text-red-600 hover:bg-red-200" },
     { icon: <FaCoffee />, url: "#", color: "from-amber-600 to-amber-500", hoverColor: "rgba(217, 119, 6, 0.2)", lightColor: "bg-amber-100 text-amber-600 hover:bg-amber-200" },
   ];
 
@@ -161,7 +161,7 @@ const Footer: React.FC = () => {
               transition={{ duration: 3, repeat: Infinity }}
             />
             <img
-              src="https://levinhkhang.lol/_next/image?url=https%3A%2F%2Fi.imgur.com%2F8rhf6Ei_d.webp%3Fmaxwidth%3D1520%26fidelity%3Dgrand&w=256&q=75"
+              src="https://i.imgur.com/WQGAda7.jpeg"
               alt="Logo"
               className={`w-full h-full rounded-full object-cover border-2 ${
                 isLightMode
@@ -175,7 +175,7 @@ const Footer: React.FC = () => {
             className="text-xl font-bold gradient-text mb-2 tracking-wide"
             whileHover={{ scale: 1.05 }}
           >
-            LÊ VĨNH KHANG
+            VUONG HONG LIN
           </motion.h3>
 
           <motion.p
@@ -186,7 +186,7 @@ const Footer: React.FC = () => {
             }`}
             variants={itemVariants}
           >
-            Developer Living in Vietnam
+            Not Developer :V Just Là Gái Nghịch Source
           </motion.p>
         </motion.div>
 
@@ -253,7 +253,7 @@ const Footer: React.FC = () => {
           variants={itemVariants}
         >
           <p className={`mb-2 ${isLightMode ? 'text-gray-700' : ''}`}>
-            Liên hệ hỗ trợ: <span className="font-medium">levinhkhang93@gmail.com</span>
+            Liên hệ sụp pót: <span className="font-medium">https://t.me/hognlin</span>
           </p>
           <motion.p
             className={`text-sm flex items-center justify-center ${
@@ -278,7 +278,7 @@ const Footer: React.FC = () => {
             >
               <FaHeart />
             </motion.span>
-            by Lê Vĩnh Khang
+            by Vuong Hong Lin
           </motion.p>
         </motion.div>
 
@@ -297,7 +297,7 @@ const Footer: React.FC = () => {
               transition: { duration: 0.2 }
             }}
           >
-            <span className="relative z-10">© {currentYear} Lê Vĩnh Khang. All rights reserved.</span>
+            <span className="relative z-10">© {currentYear} Vuong Hong Lin. All rights reserved.</span>
             <motion.span
               className={`absolute bottom-0 left-0 right-0 h-1 ${
                 isLightMode
